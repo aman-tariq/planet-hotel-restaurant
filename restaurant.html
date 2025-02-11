@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+        <!-- awsome font cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <!-- bootstrap cdn -->
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- custum css -->
+        <link rel="stylesheet" href="assests/css/style.css">
+</head>
+<body>
+    
+<!-- -------------nav bar------------ -->
+
+<nav class="navbar navbar-expand-lg">
+  <a href="" class="navbar-brand">
+      <img src="assests/images/logo/logo-2.png" alt="Logo" class="d-inline-block align-middle logo">
+  </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fa fa-bars"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav ms-auto py-0 pe-4">
+          <a href="index.html" class="nav-item text-dark nav-link">Home</a>
+          <a href="about.html" class="nav-item text-dark nav-link">About</a>
+            <a href="restaurant.html" class="nav-item text-dark nav-link">Restaurant</a>
+            <a href="hotel.html" class="nav-item text-dark nav-link">Hotel</a>
+          <a href="service.html" class="nav-item text-dark nav-link">Services</a>
+
+          <!-- Book Now Button -->
+          <a href="order.html" class="book-btn">Book Now</a>
+      </div>
+  </div>
+</nav>
+
+
+  <!-- --------restaurant section start----------- -->
+
+  <div class="container my-5" >
+    <h2 class="text-center text-danger menu-heading">𝓦𝓔𝓛𝓒𝓞𝓜𝓔  𝓣𝓞  𝓞𝓤𝓡 𝓡𝓔𝓢𝓣𝓐𝓤𝓡𝓐𝓝𝓣</h2>
+    <p class="text-center about-para">
+        We serve the finest dishes, crafted with love and passion to give you an unforgettable culinary experience.
+        From appetizers to desserts, our menu has something for everyone.
+    </p>
+  </div>
+
+  <!-- Animated Images Section -->
+  <div class="container image-container">
+    <div class="row col-lg-4 px-3">
+      <img src="assests/images/restaurant/restaurant-img1.jpg" alt="Dish 1" width="350px" height="500px">
+    </div>
+    <div class="row col-lg-4 px-3">
+      <img src="assests/images/restaurant/restaurant-img2.jpg"  alt="Dish 2" width="400px" height="500px">
+    </div>
+    <div class="row col-lg-4 px-3">
+      <img src="assests/images/restaurant/restaurant-img3.jpg"  alt="Dish 3" width="400px" height="500px">
+    </div>
+  </div>
+
+  <!-- Menu Items Section -->
+  <h2 class="text-center scroll-heading pb-1 menu-heading">Food Menu</h2>
+  <div class="container">
+    <div class="menu-category">
+      <h3 class="ms-2">Appetizers</h3>
+      <div class="menu-container">
+        <div class="col-lg-4 menu-item">
+          <h5>Spring Rolls</h5>
+            <p>Freshly made with vegetables and crispy on the outside.</p>
+              <img src="assests/images/menu-img/spring-rolls.jpg" alt="" >  
+        </div>
+        <div class="col-lg-4 menu-item">
+          <h5>Dhokla</h5>
+          <p>Steamed savory cake of rice and chickpea flour.</p>
+          <img src="assests/images/menu-img/Dhokla.jpg" alt="">
+        </div>
+        <div class="col-lg-4 menu-item">
+          <h5>Garlic Bread</h5>
+          <p>Crunchy, buttery, and packed with garlic flavor.</p>
+          <img src="assests/images/menu-img/garlic-bread.jpg" alt="">  
+        </div>
+      </div>
+      <div class="menu-container">
+        <div class="col-lg-4 menu-item">
+          <h5>Shahi Paneer Tikka</h5>
+          <p>Saffron-marinated paneer grilled with royal spices.</p>
+          <img src="assests/images/menu-img/Paneer-Tikka.jpg" alt="">  
+        </div>
+        <div class="col-lg-4 menu-item">
+            <h5>Palak Chaat</h5>
+            <p>Crispy spinach with yogurt, tamarind, and saffron
+            </p>
+            <img src="assests/images/menu-img/palak-chaat.jpg" alt="">
+        </div>
+        <div class="col-lg-4 menu-item">
+          <h5>Royal Pani Puri</h5>
+          <p>Royal pani puri with tamarind, potato, and gold leaf.</p>
+          <img src="assests/images/menu-img/pani-puri.jpg" alt="">  
+        </div>
+      </div>
+    </div>
+    <div class="menu-category">
+      <h3 class="ms-2">Main Courses</h3>
+      <div class="menu-container">
+        <div class="col-md-4 menu-item">
+          <h5>Grilled Chicken</h5>
+          <p>Juicy grilled chicken served with seasonal vegetables.</p>
+          <img src="assests/images/menu-img/Grilled-Chicken.jpg" alt="">
+        </div>
+        <div class="col-md-4 menu-item" data-aos="flip-right" data-aos-delay="100">
+          <h5>Mushroom Stroganoff</h5>
+          <p>Creamy sautéed mushrooms over egg noodles.</p>
+          <img src="assests/images/menu-img/Mushroom-Stroganoff.jpg" alt="">
+        </div>
+        <div class="col-md-4 menu-item" data-aos="flip-right" data-aos-delay="200">
+          <h5>Vegetable Stir-fry</h5>
+          <p>Stir-fried vegetables with a savory sauce.</p>
+          <img src="assests/images/menu-img/vegetable-pulao.JPG" alt="">
+        </div>
+      </div>
+      <div class="menu-container">
+        <div class="col-md-4 menu-item">
+          <h5>Spinach Curry</h5>
+          <p> Spiced curry with spinach and coconut milk.</p>
+          <img src="assests/images/menu-img/spinach_curry.jpg" alt="">
+        </div>
+        <div class="col-md-4 menu-item" data-aos="flip-right" data-aos-delay="100">
+          <h5>Dal Makhani</h5>
+          <p>Creamy lentils in a spiced butter sauce.</p>
+          <img src="assests/images/menu-img/dal-makhni.jpg" alt="">
+        </div>
+        <div class="col-md-4 menu-item" data-aos="flip-right" data-aos-delay="200">
+          <h5>Vegetable Pulao</h5>
+          <p>Fragrant spiced rice with mixed vegetables.</p>
+          <img src="assests/images/menu-img/vegetable-pulao.JPG" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="menu-category">
+      <h3 class="ms-2">Desserts</h3>
+      <div class="menu-container">
+        <div class="col-md-4 menu-item">
+            <h5>Chocolate Cake</h5>
+            <p>Decadent chocolate cake with a rich, velvety texture.</p>
+            <img src="assests/images/menu-img/cake.jpg" alt="">
+        </div>
+        <div class="col-md-4 menu-item" data-aos="flip-left" data-aos-delay="100">
+            <h5>Fruit Tart</h5>
+            <p>Fresh fruits on a buttery, flaky tart crust.</p>
+            <img src="assests/images/menu-img/Fruit-Tart.jpg" alt="">
+        </div>
+        <div class="col-md-4 menu-item" data-aos="flip-left" data-aos-delay="200">
+            <h5>Ice Cream Sundae</h5>
+            <p>Vanilla ice cream with chocolate and caramel sauce.</p>
+            <img src="assests/images/menu-img/ice-Sundae.jpg" alt="">
+        </div>
+      </div>
+      <div class="menu-container">
+        <div class="col-md-4 menu-item">
+          <h5>Gulab Jamun</h5>
+          <p>Sweet fried milk balls soaked in syrup.</p>
+          <img src="assests/images/menu-img/gulab-jamun.jpg" alt="">
+        </div>
+        <div class="col-md-4 menu-item" data-aos="flip-left" data-aos-delay="100">
+          <h5>Shahi Tukda</h5>
+          <p>Saffron-soaked fried bread with nuts.</p>
+          <img src="assests/images/menu-img/shahi-tukda.jpg" alt="">
+        </div>
+        <div class="col-md-4 menu-item" data-aos="flip-left" data-aos-delay="200">
+          <h5>Kesar Pista Kulfi</h5>
+          <p>Saffron and pistachio-flavored frozen dessert.</p>
+          <img src="assests/images/menu-img/Kesar-Pista-Kulfi.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <div class="booking-form bg-dark">
+        <h3 class="text-center text-danger text-decoration-underline">Book Your Stay</h3>
+        <form>
+            <div class="form-group pt-3 text-white">
+                <label for="name">Full Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group pt-3 text-white">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group pt-3 text-white">
+              <label for="reservation-date">Reservation Date</label>
+              <input type="date" class="form-control" id="reservation-date" required>
+            </div>
+            <div class="form-group pt-3 text-white">
+              <label for="time">Time</label>
+              <input type="time" class="form-control" id="time" required>
+            </div>
+            <div class="form-group pt-3 text-white">
+            <label for="people">Number of People</label>
+            <input type="number" class="form-control" id="people" placeholder="Enter number of people" required>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <button type="submit" class="btn justify-content-center book-btn mt-4">Submit</button>
+            </div>
+            
+        </form>
+    </div>
+</div>
+  <!-- --------restaurant section ends----------- -->
+
+  <!-- -------------footer section--------------- -->
+
+  <div class="container-fluid bg-dark text-light footer pt-5">
+    <div class="py-5 px-2">
+      <div class="row g-5">
+
+        <div class="col-lg-3 col-md-6">
+          <!-- ----------footer headings--------- -->
+          <h4 class="footer-headings">About Us</h4>
+          <p> our restaurant and hotel offer the perfect combination of gourmet dining and luxurious accommodations, ensuring every guest enjoys an unforgettable experience, whether savoring exquisite meals or relaxing in our comfortable rooms.</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <!-- ----------footer headings------------- -->
+          <h4 class="footer-headings">Contact</h4>
+            <p class="mb-2"> <i class="fa fa-map-marker-alt me-3"></i>Address</p>
+            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 8882338317</p>
+            <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@gmail.com</p>
+            <div class="d-flex pt-2">
+              <a href="" class="btn btn-outline-light btn-social"><i class="fab fa-twitter"></i></a>
+              <a href="" class="btn btn-outline-light btn-social"><i class="fab fa-facebook-f"></i></a>
+              <a href="" class="btn btn-outline-light btn-social"><i class="fab fa-youtube"></i></a>
+              <a href="" class="btn btn-outline-light btn-social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <!-- --------footer headings--------- -->
+          <h4 class="footer-headings">Opening</h4>
+          <h5 class="text-light fw-normal">Monday - Saturday</h5>
+          <p>09AM - 09PM</p>
+          <h5 class="text-light fw-normal">Sunday</h5>
+          <p>10AM - 08PM</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <!-- ---------------footer headings---------- -->
+          <h4 class="footer-headings company">Quick Links</h4>
+            <a href="about.html" class="btn btn-link company-links">> About Us</a> <br>
+            <a href="hotel.html" class="btn btn-link company-links">> Hotel</a> <br>
+            <a href="restaurant.html" class="btn btn-link company-links">> Restaurant</a><br>
+            <a href="order.html" class="btn btn-link company-links">> Order</a><br>
+            <a href="terms.html" class="btn btn-link company-links">> Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="copyright">
+        <div class="row">
+          <div class="col-md-6 pb-3 col-lg-12 text-center mb-3 mb-md-0">
+            &copy; <a class=" text-white text-decoration-none" href="" >PLANET HOTEL & RESTAURANT</a>, All right Reserved
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

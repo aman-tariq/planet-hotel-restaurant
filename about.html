@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <!-- awsome font cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- bootstrap cdn -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- custum css -->
+    <link rel="stylesheet" href="assests/css/style.css">
+
+    <style>
+      /* Initial state: Off-screen */
+.col-lg-6 {
+  opacity: 0;
+  transform: translateX(100px); /* Position off to the right */
+  transition: opacity 1s ease, transform 1s ease; /* Smooth transition */
+}
+.col-lg-6.left-column {
+  transform: translateX(-100px); /* Position off to the left */
+}
+.col-lg-6.active {
+  opacity: 1;
+  transform: translateX(0); 
+}
+.no-transition .col-lg-6 {
+  transition: none; /* Disable transition */
+}
+.no-transition .col-lg-6.active {
+  opacity: 1;
+  transform: translateX(0); 
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- -------------nav bar------------ -->
+
+    <nav class="navbar navbar-expand-lg">
+      <a href="" class="navbar-brand">
+          <img src="assests/images/logo/logo-2.png" alt="Logo" class="d-inline-block align-middle logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fa fa-bars"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0 pe-4">
+              <a href="index.html" class="nav-item text-dark nav-link">Home</a>
+              <a href="about.html" class="nav-item text-dark nav-link">About</a>
+              <a href="restaurant.html" class="nav-item text-dark nav-link">Restaurant</a>
+              <a href="hotel.html" class="nav-item text-dark nav-link">Hotel</a>
+              <a href="service.html" class="nav-item text-dark nav-link">Services</a>
+  
+              <!-- Book Now Button -->
+              <a href="order.html" class="book-btn">Book Now</a>
+          </div>
+      </div>
+  </nav>
+
+    <div class="container-xxl py-5 no-transition">
+        <div class="container">
+          <div class="row g-5 align-items-center">
+            <div class="col-md-6 non">
+              <div class="row g-3">
+                <div class="col-6 text-start">
+                  <img class="img-gluid rounded w-100 about-img" src="assests/images/table-img/table-img1.png" alt="">
+                </div>
+                <div class="col-6 text-start">
+                  <img class="img-gluid rounded w-75 about-img" src="assests/images/table-img/table-img2.png" style="margin-top: 25%;" alt="">
+                </div>
+                <div class="col-6 text-end">
+                  <img class="img-gluid rounded w-75 about-img" src="assests/images/table-img/table-img3.png" alt="">
+                </div>
+                <div class="col-6 text-end">
+                  <img class="img-gluid rounded w-100 about-img" src="assests/images/table-img/table-img4.png" alt="">
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-md-6">
+                <h1 class="mb-4 welcome"> 𝖜𝖊𝖑𝖈𝖔𝖒𝖊 𝖙𝖔 <a href=""> <img src="assests/images/logo/logo-2.png" alt=""></a></h1>
+                <p class="about-para">Our hotel offers stylish, well-equipped rooms with modern amenities, ensuring comfort and convenience for every guest. The on-site restaurant serves a delicious mix of local and international dishes, crafted with fresh ingredients for an unforgettable dining experience.</p>
+                <p class="about-para">Experience the perfect blend of comfort and flavor at our hotel and restaurant. Enjoy cozy rooms with all the essentials for a relaxing stay, and savor exquisite meals from our diverse menu.</p>
+            </div>
+          </div>
+        </div>
+      </div>  
+
+
+<!-- ------------------footer section--------------------------- -->
+
+      <div class="container-fluid bg-dark text-light footer pt-5">
+        <div class="py-5 px-2">
+          <div class="row g-5">
+    
+            <div class="col-lg-3 col-md-6">
+    
+              <!-- ----------footer headings--------- -->
+    
+              <h4 class="footer-headings">About Us</h4>
+              <p> our restaurant and hotel offer the perfect combination of gourmet dining and luxurious accommodations, ensuring every guest enjoys an unforgettable experience, whether savoring exquisite meals or relaxing in our comfortable rooms.</p>
+              
+            </div>
+    
+            
+            <div class="col-lg-3 col-md-6">
+    
+              <!-- ----------footer headings------------- -->
+              <h4 class="footer-headings">Contact</h4>
+                <p class="mb-2"> <i class="fa fa-map-marker-alt me-3"></i>Address</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 8882338317</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@gmail.com</p>
+                <div class="d-flex pt-2">
+                  <a href="" class="btn btn-outline-light btn-social"><i class="fab fa-twitter"></i></a>
+                  <a href="" class="btn btn-outline-light btn-social"><i class="fab fa-facebook-f"></i></a>
+                  <a href="" class="btn btn-outline-light btn-social"><i class="fab fa-youtube"></i></a>
+                  <a href="" class="btn btn-outline-light btn-social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+    
+              <!-- --------footer headings--------- -->
+    
+              <h4 class="footer-headings">Opening</h4>
+              <h5 class="text-light fw-normal">Monday - Saturday</h5>
+              <p>09AM - 09PM</p>
+              <h5 class="text-light fw-normal">Sunday</h5>
+              <p>10AM - 08PM</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+    
+              <!-- ---------------footer headings---------- -->
+    
+              <h4 class="footer-headings company">Quick Links</h4>
+                <a href="about.html" class="btn btn-link company-links">> About Us</a> <br>
+                <a href="menu.html" class="btn btn-link company-links">> Menu</a> <br>
+                <a href="order.html" class="btn btn-link company-links">> Reservation</a><br>
+                <a href="service.html" class="btn btn-link company-links">> Services</a><br>
+                <a href="terms.html" class="btn btn-link company-links">> Terms & Conditions</a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="container">
+          <div class="copyright">
+            <div class="row">
+              <div class="col-md-6 pb-3 col-lg-12 text-center mb-3 mb-md-0">
+                &copy; <a class=" text-white text-decoration-none" href="" >PLANET HOTEL & RESTAURANT</a>, All right Reserved
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
